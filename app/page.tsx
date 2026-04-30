@@ -1,4 +1,4 @@
-import Concept from "@/components/concept";
+import Concept from "@/components/Concept";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="pt-20">
+      <main className="space-y-24">
         <Hero />
         <Concept />
         <Menu />
