@@ -16,6 +16,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "酒場こもれび　｜　予約サイト",
   description: "ポートフォリオ用に制作した架空の居酒屋予約LPです。",
+  openGraph: {
+    title: "居酒屋 こもれび",
+    description: "落ち着いた和空間で、炭火料理とお酒を。",
+    images: ["/ogp.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "居酒屋 こもれび",
+    description: "落ち着いた和空間で、炭火料理とお酒を。",
+    images: ["/ogp.jpg"],
+  },
 };
 
 export default function RootLayout({
